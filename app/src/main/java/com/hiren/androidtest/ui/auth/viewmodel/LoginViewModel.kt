@@ -34,8 +34,8 @@ class LoginViewModel : ViewModel(), TextWatcher ,DbHelper{
     val mCompositeDisposable: CompositeDisposable  = CompositeDisposable()
 
     init {
-        userName.value = "username";
-        password.value = "1111111"
+        //userName.value = "username";
+        //password.value = "1111111"
     }
     @JvmName("setBinding1")
     fun setBinding(binding: ActivityLoginBinding) {
